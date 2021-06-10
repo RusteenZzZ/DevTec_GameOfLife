@@ -1,0 +1,42 @@
+digraph "/home/rusteen/DevTecs/game/game.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/rusteen/DevTecs\l/game/game.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="stdlib.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="./../board_animation\l/clear_screen.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$board__animation_2clear__screen_8h.html",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="./../board_animation\l/delay.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$delay_8h.html",tooltip=" "];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="time.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="./../board_animation\l/fill_board.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fill__board_8h.html",tooltip=" "];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="./../const.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$const_8h.html",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="./../board_animation\l/init_board.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$init__board_8h.html",tooltip=" "];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="./../board_animation\l/next_generation_board.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$next__generation__board_8h.html",tooltip=" "];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="num_of_neighbours.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$num__of__neighbours_8h.html",tooltip=" "];
+  Node10 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="./../board_animation\l/print_board.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$print__board_8h.html",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="stdio.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="./../board_animation\l/update_board.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$update__board_8h.html",tooltip=" "];
+  Node13 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+}
