@@ -9,3 +9,5 @@ elseif (WIN32)
 endif (UNIX)
 
 add_custom_target(doc doxygen ../docs_conf)
+
+add_custom_target(dist zip -r compressed.zip ./../)

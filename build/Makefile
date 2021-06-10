@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named dist
+
+# Build rule for target.
+dist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dist
+.PHONY : dist
+
+# fast build rule for target.
+dist/fast:
+	$(MAKE) -f CMakeFiles/dist.dir/build.make CMakeFiles/dist.dir/build
+.PHONY : dist/fast
+
+#=============================================================================
 # Target rules for targets named doc
 
 # Build rule for target.
@@ -414,6 +427,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... dist"
 	@echo "... doc"
 	@echo "... main"
 	@echo "... board_animation/clear_screen_posix.o"
