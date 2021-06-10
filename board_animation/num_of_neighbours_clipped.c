@@ -1,6 +1,6 @@
-#include "num_of_neighbours.h"
+#include "num_of_neighbours_clipped.h"
 
-int num_of_neighbours(int board[SIZE][SIZE], int x, int y){
+int num_of_neighbours_clipped(int board[SIZE][SIZE], int x, int y){
 	int num = 0;
 
 	if(x == 0 && y == 0){

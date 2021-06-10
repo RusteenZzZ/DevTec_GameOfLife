@@ -15,14 +15,14 @@ CMakeFiles/main.dir/board_animation/init_board.c.o
  /home/rusteen/DevTecs/board_animation/init_board.c
  /home/rusteen/DevTecs/board_animation/init_board.h
  /home/rusteen/DevTecs/const.h
-CMakeFiles/main.dir/board_animation/next_generation_board.c.o
- /home/rusteen/DevTecs/board_animation/next_generation_board.c
- /home/rusteen/DevTecs/board_animation/next_generation_board.h
- /home/rusteen/DevTecs/board_animation/num_of_neighbours.h
+CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o
+ /home/rusteen/DevTecs/board_animation/next_generation_board_clipped.c
+ /home/rusteen/DevTecs/board_animation/next_generation_board_clipped.h
+ /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.h
  /home/rusteen/DevTecs/const.h
-CMakeFiles/main.dir/board_animation/num_of_neighbours.c.o
- /home/rusteen/DevTecs/board_animation/num_of_neighbours.c
- /home/rusteen/DevTecs/board_animation/num_of_neighbours.h
+CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o
+ /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.c
+ /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.h
  /home/rusteen/DevTecs/const.h
 CMakeFiles/main.dir/board_animation/print_board.c.o
  /home/rusteen/DevTecs/board_animation/print_board.c
@@ -37,8 +37,8 @@ CMakeFiles/main.dir/game/game.c.o
  /home/rusteen/DevTecs/board_animation/delay.h
  /home/rusteen/DevTecs/board_animation/fill_board.h
  /home/rusteen/DevTecs/board_animation/init_board.h
- /home/rusteen/DevTecs/board_animation/next_generation_board.h
- /home/rusteen/DevTecs/board_animation/num_of_neighbours.h
+ /home/rusteen/DevTecs/board_animation/next_generation_board_clipped.h
+ /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.h
  /home/rusteen/DevTecs/board_animation/print_board.h
  /home/rusteen/DevTecs/board_animation/update_board.h
  /home/rusteen/DevTecs/const.h
@@ -49,8 +49,8 @@ CMakeFiles/main.dir/main.c.o
  /home/rusteen/DevTecs/board_animation/delay.h
  /home/rusteen/DevTecs/board_animation/fill_board.h
  /home/rusteen/DevTecs/board_animation/init_board.h
- /home/rusteen/DevTecs/board_animation/next_generation_board.h
- /home/rusteen/DevTecs/board_animation/num_of_neighbours.h
+ /home/rusteen/DevTecs/board_animation/next_generation_board_clipped.h
+ /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.h
  /home/rusteen/DevTecs/board_animation/print_board.h
  /home/rusteen/DevTecs/board_animation/update_board.h
  /home/rusteen/DevTecs/const.h

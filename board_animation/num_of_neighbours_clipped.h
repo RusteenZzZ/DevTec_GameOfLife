@@ -1,5 +1,5 @@
-#ifndef NUM_OF_NEIGHBOURS
-#define NUM_OF_NEIGHBOURS
+#ifndef NUM_OF_NEIGHBOURS_CLIPPED
+#define NUM_OF_NEIGHBOURS_CLIPPED
 
 #include <stdlib.h>
 #include "./../const.h"
@@ -10,6 +10,6 @@
  * @param y The y coordinate of the checked tyle
  * @return The number of alive tyles in the vicinity of the sent tyle
  */
-int num_of_neighbours(int board[SIZE][SIZE], int x, int y);
+int num_of_neighbours_clipped(int board[SIZE][SIZE], int x, int y);
 
 #endif

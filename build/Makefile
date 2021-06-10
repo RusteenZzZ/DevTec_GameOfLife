@@ -257,59 +257,59 @@ board_animation/init_board.c.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_board.c.s
 .PHONY : board_animation/init_board.c.s
 
-board_animation/next_generation_board.o: board_animation/next_generation_board.c.o
+board_animation/next_generation_board_clipped.o: board_animation/next_generation_board_clipped.c.o
 
-.PHONY : board_animation/next_generation_board.o
-
-# target to build an object file
-board_animation/next_generation_board.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board.c.o
-.PHONY : board_animation/next_generation_board.c.o
-
-board_animation/next_generation_board.i: board_animation/next_generation_board.c.i
-
-.PHONY : board_animation/next_generation_board.i
-
-# target to preprocess a source file
-board_animation/next_generation_board.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board.c.i
-.PHONY : board_animation/next_generation_board.c.i
-
-board_animation/next_generation_board.s: board_animation/next_generation_board.c.s
-
-.PHONY : board_animation/next_generation_board.s
-
-# target to generate assembly for a file
-board_animation/next_generation_board.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board.c.s
-.PHONY : board_animation/next_generation_board.c.s
-
-board_animation/num_of_neighbours.o: board_animation/num_of_neighbours.c.o
-
-.PHONY : board_animation/num_of_neighbours.o
+.PHONY : board_animation/next_generation_board_clipped.o
 
 # target to build an object file
-board_animation/num_of_neighbours.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/num_of_neighbours.c.o
-.PHONY : board_animation/num_of_neighbours.c.o
+board_animation/next_generation_board_clipped.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o
+.PHONY : board_animation/next_generation_board_clipped.c.o
 
-board_animation/num_of_neighbours.i: board_animation/num_of_neighbours.c.i
+board_animation/next_generation_board_clipped.i: board_animation/next_generation_board_clipped.c.i
 
-.PHONY : board_animation/num_of_neighbours.i
+.PHONY : board_animation/next_generation_board_clipped.i
 
 # target to preprocess a source file
-board_animation/num_of_neighbours.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/num_of_neighbours.c.i
-.PHONY : board_animation/num_of_neighbours.c.i
+board_animation/next_generation_board_clipped.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.i
+.PHONY : board_animation/next_generation_board_clipped.c.i
 
-board_animation/num_of_neighbours.s: board_animation/num_of_neighbours.c.s
+board_animation/next_generation_board_clipped.s: board_animation/next_generation_board_clipped.c.s
 
-.PHONY : board_animation/num_of_neighbours.s
+.PHONY : board_animation/next_generation_board_clipped.s
 
 # target to generate assembly for a file
-board_animation/num_of_neighbours.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/num_of_neighbours.c.s
-.PHONY : board_animation/num_of_neighbours.c.s
+board_animation/next_generation_board_clipped.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.s
+.PHONY : board_animation/next_generation_board_clipped.c.s
+
+board_animation/num_of_neighbours_clipped.o: board_animation/num_of_neighbours_clipped.c.o
+
+.PHONY : board_animation/num_of_neighbours_clipped.o
+
+# target to build an object file
+board_animation/num_of_neighbours_clipped.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o
+.PHONY : board_animation/num_of_neighbours_clipped.c.o
+
+board_animation/num_of_neighbours_clipped.i: board_animation/num_of_neighbours_clipped.c.i
+
+.PHONY : board_animation/num_of_neighbours_clipped.i
+
+# target to preprocess a source file
+board_animation/num_of_neighbours_clipped.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.i
+.PHONY : board_animation/num_of_neighbours_clipped.c.i
+
+board_animation/num_of_neighbours_clipped.s: board_animation/num_of_neighbours_clipped.c.s
+
+.PHONY : board_animation/num_of_neighbours_clipped.s
+
+# target to generate assembly for a file
+board_animation/num_of_neighbours_clipped.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.s
+.PHONY : board_animation/num_of_neighbours_clipped.c.s
 
 board_animation/print_board.o: board_animation/print_board.c.o
 
@@ -442,12 +442,12 @@ help:
 	@echo "... board_animation/init_board.o"
 	@echo "... board_animation/init_board.i"
 	@echo "... board_animation/init_board.s"
-	@echo "... board_animation/next_generation_board.o"
-	@echo "... board_animation/next_generation_board.i"
-	@echo "... board_animation/next_generation_board.s"
-	@echo "... board_animation/num_of_neighbours.o"
-	@echo "... board_animation/num_of_neighbours.i"
-	@echo "... board_animation/num_of_neighbours.s"
+	@echo "... board_animation/next_generation_board_clipped.o"
+	@echo "... board_animation/next_generation_board_clipped.i"
+	@echo "... board_animation/next_generation_board_clipped.s"
+	@echo "... board_animation/num_of_neighbours_clipped.o"
+	@echo "... board_animation/num_of_neighbours_clipped.i"
+	@echo "... board_animation/num_of_neighbours_clipped.s"
 	@echo "... board_animation/print_board.o"
 	@echo "... board_animation/print_board.i"
 	@echo "... board_animation/print_board.s"

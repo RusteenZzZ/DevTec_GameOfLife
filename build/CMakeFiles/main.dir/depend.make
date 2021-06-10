@@ -15,14 +15,14 @@ CMakeFiles/main.dir/board_animation/init_board.c.o: ../board_animation/init_boar
 CMakeFiles/main.dir/board_animation/init_board.c.o: ../board_animation/init_board.h
 CMakeFiles/main.dir/board_animation/init_board.c.o: ../const.h
 
-CMakeFiles/main.dir/board_animation/next_generation_board.c.o: ../board_animation/next_generation_board.c
-CMakeFiles/main.dir/board_animation/next_generation_board.c.o: ../board_animation/next_generation_board.h
-CMakeFiles/main.dir/board_animation/next_generation_board.c.o: ../board_animation/num_of_neighbours.h
-CMakeFiles/main.dir/board_animation/next_generation_board.c.o: ../const.h
+CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o: ../board_animation/next_generation_board_clipped.c
+CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o: ../board_animation/next_generation_board_clipped.h
+CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o: ../board_animation/num_of_neighbours_clipped.h
+CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o: ../const.h
 
-CMakeFiles/main.dir/board_animation/num_of_neighbours.c.o: ../board_animation/num_of_neighbours.c
-CMakeFiles/main.dir/board_animation/num_of_neighbours.c.o: ../board_animation/num_of_neighbours.h
-CMakeFiles/main.dir/board_animation/num_of_neighbours.c.o: ../const.h
+CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o: ../board_animation/num_of_neighbours_clipped.c
+CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o: ../board_animation/num_of_neighbours_clipped.h
+CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o: ../const.h
 
 CMakeFiles/main.dir/board_animation/print_board.c.o: ../board_animation/print_board.c
 CMakeFiles/main.dir/board_animation/print_board.c.o: ../board_animation/print_board.h
@@ -36,8 +36,8 @@ CMakeFiles/main.dir/game/game.c.o: ../board_animation/clear_screen.h
 CMakeFiles/main.dir/game/game.c.o: ../board_animation/delay.h
 CMakeFiles/main.dir/game/game.c.o: ../board_animation/fill_board.h
 CMakeFiles/main.dir/game/game.c.o: ../board_animation/init_board.h
-CMakeFiles/main.dir/game/game.c.o: ../board_animation/next_generation_board.h
-CMakeFiles/main.dir/game/game.c.o: ../board_animation/num_of_neighbours.h
+CMakeFiles/main.dir/game/game.c.o: ../board_animation/next_generation_board_clipped.h
+CMakeFiles/main.dir/game/game.c.o: ../board_animation/num_of_neighbours_clipped.h
 CMakeFiles/main.dir/game/game.c.o: ../board_animation/print_board.h
 CMakeFiles/main.dir/game/game.c.o: ../board_animation/update_board.h
 CMakeFiles/main.dir/game/game.c.o: ../const.h
@@ -48,8 +48,8 @@ CMakeFiles/main.dir/main.c.o: ../board_animation/clear_screen.h
 CMakeFiles/main.dir/main.c.o: ../board_animation/delay.h
 CMakeFiles/main.dir/main.c.o: ../board_animation/fill_board.h
 CMakeFiles/main.dir/main.c.o: ../board_animation/init_board.h
-CMakeFiles/main.dir/main.c.o: ../board_animation/next_generation_board.h
-CMakeFiles/main.dir/main.c.o: ../board_animation/num_of_neighbours.h
+CMakeFiles/main.dir/main.c.o: ../board_animation/next_generation_board_clipped.h
+CMakeFiles/main.dir/main.c.o: ../board_animation/num_of_neighbours_clipped.h
 CMakeFiles/main.dir/main.c.o: ../board_animation/print_board.h
 CMakeFiles/main.dir/main.c.o: ../board_animation/update_board.h
 CMakeFiles/main.dir/main.c.o: ../const.h

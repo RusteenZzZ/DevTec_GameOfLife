@@ -18,7 +18,7 @@ void game_loop(){
 		delay(DELAY);
 
 		clear_screen();
-		next_generation_board(board_v1, board_v2);
+		next_generation_board_clipped(board_v1, board_v2);
 		update_board(board_v1, board_v2);
 		print_board(board_v1);
 
