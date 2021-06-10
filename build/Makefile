@@ -257,6 +257,33 @@ board_animation/init_board.c.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_board.c.s
 .PHONY : board_animation/init_board.c.s
 
+board_animation/next_generation_board_circular.o: board_animation/next_generation_board_circular.c.o
+
+.PHONY : board_animation/next_generation_board_circular.o
+
+# target to build an object file
+board_animation/next_generation_board_circular.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o
+.PHONY : board_animation/next_generation_board_circular.c.o
+
+board_animation/next_generation_board_circular.i: board_animation/next_generation_board_circular.c.i
+
+.PHONY : board_animation/next_generation_board_circular.i
+
+# target to preprocess a source file
+board_animation/next_generation_board_circular.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.i
+.PHONY : board_animation/next_generation_board_circular.c.i
+
+board_animation/next_generation_board_circular.s: board_animation/next_generation_board_circular.c.s
+
+.PHONY : board_animation/next_generation_board_circular.s
+
+# target to generate assembly for a file
+board_animation/next_generation_board_circular.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.s
+.PHONY : board_animation/next_generation_board_circular.c.s
+
 board_animation/next_generation_board_clipped.o: board_animation/next_generation_board_clipped.c.o
 
 .PHONY : board_animation/next_generation_board_clipped.o
@@ -283,6 +310,33 @@ board_animation/next_generation_board_clipped.s: board_animation/next_generation
 board_animation/next_generation_board_clipped.c.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.s
 .PHONY : board_animation/next_generation_board_clipped.c.s
+
+board_animation/num_of_neighbours_circular.o: board_animation/num_of_neighbours_circular.c.o
+
+.PHONY : board_animation/num_of_neighbours_circular.o
+
+# target to build an object file
+board_animation/num_of_neighbours_circular.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o
+.PHONY : board_animation/num_of_neighbours_circular.c.o
+
+board_animation/num_of_neighbours_circular.i: board_animation/num_of_neighbours_circular.c.i
+
+.PHONY : board_animation/num_of_neighbours_circular.i
+
+# target to preprocess a source file
+board_animation/num_of_neighbours_circular.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.i
+.PHONY : board_animation/num_of_neighbours_circular.c.i
+
+board_animation/num_of_neighbours_circular.s: board_animation/num_of_neighbours_circular.c.s
+
+.PHONY : board_animation/num_of_neighbours_circular.s
+
+# target to generate assembly for a file
+board_animation/num_of_neighbours_circular.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.s
+.PHONY : board_animation/num_of_neighbours_circular.c.s
 
 board_animation/num_of_neighbours_clipped.o: board_animation/num_of_neighbours_clipped.c.o
 
@@ -442,9 +496,15 @@ help:
 	@echo "... board_animation/init_board.o"
 	@echo "... board_animation/init_board.i"
 	@echo "... board_animation/init_board.s"
+	@echo "... board_animation/next_generation_board_circular.o"
+	@echo "... board_animation/next_generation_board_circular.i"
+	@echo "... board_animation/next_generation_board_circular.s"
 	@echo "... board_animation/next_generation_board_clipped.o"
 	@echo "... board_animation/next_generation_board_clipped.i"
 	@echo "... board_animation/next_generation_board_clipped.s"
+	@echo "... board_animation/num_of_neighbours_circular.o"
+	@echo "... board_animation/num_of_neighbours_circular.i"
+	@echo "... board_animation/num_of_neighbours_circular.s"
 	@echo "... board_animation/num_of_neighbours_clipped.o"
 	@echo "... board_animation/num_of_neighbours_clipped.i"
 	@echo "... board_animation/num_of_neighbours_clipped.s"

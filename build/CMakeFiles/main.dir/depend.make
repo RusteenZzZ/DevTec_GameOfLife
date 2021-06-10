@@ -15,10 +15,19 @@ CMakeFiles/main.dir/board_animation/init_board.c.o: ../board_animation/init_boar
 CMakeFiles/main.dir/board_animation/init_board.c.o: ../board_animation/init_board.h
 CMakeFiles/main.dir/board_animation/init_board.c.o: ../const.h
 
+CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o: ../board_animation/next_generation_board_circular.c
+CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o: ../board_animation/next_generation_board_circular.h
+CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o: ../board_animation/num_of_neighbours_circular.h
+CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o: ../const.h
+
 CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o: ../board_animation/next_generation_board_clipped.c
 CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o: ../board_animation/next_generation_board_clipped.h
 CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o: ../board_animation/num_of_neighbours_clipped.h
 CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o: ../const.h
+
+CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o: ../board_animation/num_of_neighbours_circular.c
+CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o: ../board_animation/num_of_neighbours_circular.h
+CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o: ../const.h
 
 CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o: ../board_animation/num_of_neighbours_clipped.c
 CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o: ../board_animation/num_of_neighbours_clipped.h

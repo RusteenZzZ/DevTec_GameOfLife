@@ -11,6 +11,9 @@
 #include "./../board_animation/print_board.h"
 #include "./../board_animation/update_board.h"
 
-void game_loop();
+/**
+ * @param option 1 for clipped, 2 for circular (Clipped by default)
+ */
+void game_loop(int option);
 
 #endif

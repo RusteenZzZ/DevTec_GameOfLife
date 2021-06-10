@@ -135,9 +135,22 @@ CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusteen/DevTecs/board_animation/next_generation_board_clipped.c -o CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.s
 
+CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o: ../board_animation/next_generation_board_circular.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o   -c /home/rusteen/DevTecs/board_animation/next_generation_board_circular.c
+
+CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusteen/DevTecs/board_animation/next_generation_board_circular.c > CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.i
+
+CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusteen/DevTecs/board_animation/next_generation_board_circular.c -o CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.s
+
 CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o: ../board_animation/num_of_neighbours_clipped.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o   -c /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.c
 
 CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.i: cmake_force
@@ -148,9 +161,22 @@ CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.c -o CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.s
 
+CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o: ../board_animation/num_of_neighbours_circular.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o   -c /home/rusteen/DevTecs/board_animation/num_of_neighbours_circular.c
+
+CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusteen/DevTecs/board_animation/num_of_neighbours_circular.c > CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.i
+
+CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusteen/DevTecs/board_animation/num_of_neighbours_circular.c -o CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.s
+
 CMakeFiles/main.dir/board_animation/print_board.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/board_animation/print_board.c.o: ../board_animation/print_board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/board_animation/print_board.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/board_animation/print_board.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/board_animation/print_board.c.o   -c /home/rusteen/DevTecs/board_animation/print_board.c
 
 CMakeFiles/main.dir/board_animation/print_board.c.i: cmake_force
@@ -163,7 +189,7 @@ CMakeFiles/main.dir/board_animation/print_board.c.s: cmake_force
 
 CMakeFiles/main.dir/board_animation/update_board.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/board_animation/update_board.c.o: ../board_animation/update_board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/board_animation/update_board.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/board_animation/update_board.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/board_animation/update_board.c.o   -c /home/rusteen/DevTecs/board_animation/update_board.c
 
 CMakeFiles/main.dir/board_animation/update_board.c.i: cmake_force
@@ -176,7 +202,7 @@ CMakeFiles/main.dir/board_animation/update_board.c.s: cmake_force
 
 CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o: ../board_animation/clear_screen_posix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o   -c /home/rusteen/DevTecs/board_animation/clear_screen_posix.c
 
 CMakeFiles/main.dir/board_animation/clear_screen_posix.c.i: cmake_force
@@ -195,7 +221,9 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/board_animation/fill_board.c.o" \
 "CMakeFiles/main.dir/board_animation/init_board.c.o" \
 "CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o" \
+"CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o" \
 "CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o" \
+"CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o" \
 "CMakeFiles/main.dir/board_animation/print_board.c.o" \
 "CMakeFiles/main.dir/board_animation/update_board.c.o" \
 "CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o"
@@ -209,13 +237,15 @@ main: CMakeFiles/main.dir/board_animation/delay.c.o
 main: CMakeFiles/main.dir/board_animation/fill_board.c.o
 main: CMakeFiles/main.dir/board_animation/init_board.c.o
 main: CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o
+main: CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o
 main: CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o
+main: CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o
 main: CMakeFiles/main.dir/board_animation/print_board.c.o
 main: CMakeFiles/main.dir/board_animation/update_board.c.o
 main: CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusteen/DevTecs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

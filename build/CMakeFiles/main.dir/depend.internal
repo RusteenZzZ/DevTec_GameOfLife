@@ -15,10 +15,19 @@ CMakeFiles/main.dir/board_animation/init_board.c.o
  /home/rusteen/DevTecs/board_animation/init_board.c
  /home/rusteen/DevTecs/board_animation/init_board.h
  /home/rusteen/DevTecs/const.h
+CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o
+ /home/rusteen/DevTecs/board_animation/next_generation_board_circular.c
+ /home/rusteen/DevTecs/board_animation/next_generation_board_circular.h
+ /home/rusteen/DevTecs/board_animation/num_of_neighbours_circular.h
+ /home/rusteen/DevTecs/const.h
 CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o
  /home/rusteen/DevTecs/board_animation/next_generation_board_clipped.c
  /home/rusteen/DevTecs/board_animation/next_generation_board_clipped.h
  /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.h
+ /home/rusteen/DevTecs/const.h
+CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o
+ /home/rusteen/DevTecs/board_animation/num_of_neighbours_circular.c
+ /home/rusteen/DevTecs/board_animation/num_of_neighbours_circular.h
  /home/rusteen/DevTecs/const.h
 CMakeFiles/main.dir/board_animation/num_of_neighbours_clipped.c.o
  /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.c
