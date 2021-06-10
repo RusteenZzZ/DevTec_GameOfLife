@@ -1,3 +1,4 @@
 /home/rusteen/DevTecs/build/CMakeFiles/rebuild_cache.dir
 /home/rusteen/DevTecs/build/CMakeFiles/edit_cache.dir
+/home/rusteen/DevTecs/build/CMakeFiles/doc.dir
 /home/rusteen/DevTecs/build/CMakeFiles/main.dir

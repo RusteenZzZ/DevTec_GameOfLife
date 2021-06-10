@@ -1,0 +1,13 @@
+digraph "/home/rusteen/DevTecs/board_animation/num_of_neighbours.c"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/rusteen/DevTecs\l/board_animation/num\l_of_neighbours.c",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="num_of_neighbours.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$num__of__neighbours_8h.html",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="stdlib.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="./../const.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$const_8h.html",tooltip=" "];
+}
