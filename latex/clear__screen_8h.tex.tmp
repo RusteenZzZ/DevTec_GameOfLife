@@ -1,0 +1,18 @@
+\hypertarget{clear__screen_8h}{}\doxysection{clear\+\_\+screen.\+h File Reference}
+\label{clear__screen_8h}\index{clear\_screen.h@{clear\_screen.h}}
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{clear__screen_8h_a4953d1edcbbfc7e420c423ded1d5621a}{clear\+\_\+screen}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{clear__screen_8h_a4953d1edcbbfc7e420c423ded1d5621a}\label{clear__screen_8h_a4953d1edcbbfc7e420c423ded1d5621a}} 
+\index{clear\_screen.h@{clear\_screen.h}!clear\_screen@{clear\_screen}}
+\index{clear\_screen@{clear\_screen}!clear\_screen.h@{clear\_screen.h}}
+\doxysubsubsection{\texorpdfstring{clear\_screen()}{clear\_screen()}}
+{\footnotesize\ttfamily void clear\+\_\+screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
