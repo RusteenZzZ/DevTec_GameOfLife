@@ -22,7 +22,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Getting prepared
-      run: sudo apt install  libcunit1 libcunit1-dev
+      run: sudo apt install libcunit1 libcunit1-dev libsdl2-dev
 
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
