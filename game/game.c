@@ -24,8 +24,6 @@ void game_loop(int option){
 	while(loop != LOOP_LIMIT && running){
 		SDL_Delay(DELAY);
 
-		// clear_screen();
-
 		while(SDL_PollEvent(&event)){
 			if(event.type == SDL_QUIT){
 				running = false;
