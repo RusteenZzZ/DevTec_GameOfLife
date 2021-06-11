@@ -4,7 +4,7 @@ void game_loop(int option){
 
 	SDL_Init(SDL_INIT_VIDEO);
 
-	SDL_Window *window = SDL_CreateWindow("Game of Life", 0, 0, SIZE, SIZE, SDL_WINDOW_OPENGL);
+	SDL_Window *window = SDL_CreateWindow("Game of Life", 0, 0, SIZE*CELL_SIZE, SIZE*CELL_SIZE, SDL_WINDOW_OPENGL);
 	SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 
 	int board_v1[SIZE][SIZE];
