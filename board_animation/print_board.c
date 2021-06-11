@@ -18,6 +18,5 @@ void print_board(int board[SIZE][SIZE], SDL_Renderer *renderer){
 			}
 			SDL_RenderFillRect(renderer, &r );
 		}
-		printf("\n");
 	}
 }

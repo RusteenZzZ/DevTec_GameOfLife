@@ -96,7 +96,3 @@ SDL2/SDL.h
 ./../board_animation/update_board.h
 /home/rusteen/DevTecs/board_animation/update_board.h
 
-/home/rusteen/DevTecs/main.c
-./game/game.h
-/home/rusteen/DevTecs/game/game.h
-
