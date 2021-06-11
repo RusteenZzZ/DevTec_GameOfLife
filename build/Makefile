@@ -137,6 +137,19 @@ doc/fast:
 .PHONY : doc/fast
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -453,9 +466,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... dist"
 	@echo "... doc"
+	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... main"
 	@echo "... board_animation/delay.o"
 	@echo "... board_animation/delay.i"
