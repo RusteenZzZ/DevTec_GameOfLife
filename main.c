@@ -2,7 +2,12 @@
 
 int main(){
 
-	game_loop();
+	int option;
+
+	printf("Choose the version:\n1. Clipped\n2. Circular\n");
+	scanf("%d", &option);
+
+	game_loop(option);
 
 	return 0;
 }
