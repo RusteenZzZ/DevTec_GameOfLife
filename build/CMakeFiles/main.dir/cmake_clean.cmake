@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o"
   "CMakeFiles/main.dir/board_animation/delay.c.o"
   "CMakeFiles/main.dir/board_animation/fill_board.c.o"
   "CMakeFiles/main.dir/board_animation/init_board.c.o"

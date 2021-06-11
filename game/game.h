@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <SDL2/SDL.h>
-#include "./../board_animation/clear_screen.h"
 #include "./../board_animation/delay.h"
 #include "./../board_animation/fill_board.h"
 #include "./../board_animation/init_board.h"

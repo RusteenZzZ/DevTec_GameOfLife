@@ -149,33 +149,6 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-board_animation/clear_screen_posix.o: board_animation/clear_screen_posix.c.o
-
-.PHONY : board_animation/clear_screen_posix.o
-
-# target to build an object file
-board_animation/clear_screen_posix.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o
-.PHONY : board_animation/clear_screen_posix.c.o
-
-board_animation/clear_screen_posix.i: board_animation/clear_screen_posix.c.i
-
-.PHONY : board_animation/clear_screen_posix.i
-
-# target to preprocess a source file
-board_animation/clear_screen_posix.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/clear_screen_posix.c.i
-.PHONY : board_animation/clear_screen_posix.c.i
-
-board_animation/clear_screen_posix.s: board_animation/clear_screen_posix.c.s
-
-.PHONY : board_animation/clear_screen_posix.s
-
-# target to generate assembly for a file
-board_animation/clear_screen_posix.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/clear_screen_posix.c.s
-.PHONY : board_animation/clear_screen_posix.c.s
-
 board_animation/delay.o: board_animation/delay.c.o
 
 .PHONY : board_animation/delay.o
@@ -484,9 +457,6 @@ help:
 	@echo "... dist"
 	@echo "... doc"
 	@echo "... main"
-	@echo "... board_animation/clear_screen_posix.o"
-	@echo "... board_animation/clear_screen_posix.i"
-	@echo "... board_animation/clear_screen_posix.s"
 	@echo "... board_animation/delay.o"
 	@echo "... board_animation/delay.i"
 	@echo "... board_animation/delay.s"

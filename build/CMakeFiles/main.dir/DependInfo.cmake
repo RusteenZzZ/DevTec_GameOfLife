@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/rusteen/DevTecs/board_animation/clear_screen_posix.c" "/home/rusteen/DevTecs/build/CMakeFiles/main.dir/board_animation/clear_screen_posix.c.o"
   "/home/rusteen/DevTecs/board_animation/delay.c" "/home/rusteen/DevTecs/build/CMakeFiles/main.dir/board_animation/delay.c.o"
   "/home/rusteen/DevTecs/board_animation/fill_board.c" "/home/rusteen/DevTecs/build/CMakeFiles/main.dir/board_animation/fill_board.c.o"
   "/home/rusteen/DevTecs/board_animation/init_board.c" "/home/rusteen/DevTecs/build/CMakeFiles/main.dir/board_animation/init_board.c.o"
