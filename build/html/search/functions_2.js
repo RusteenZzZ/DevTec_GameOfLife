@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fill_5fboard_90',['fill_board',['../fill__board_8c.html#a26aae41468f5da48ccf62ab92eea47c3',1,'fill_board(int board[SIZE][SIZE]):&#160;fill_board.c'],['../fill__board_8h.html#a26aae41468f5da48ccf62ab92eea47c3',1,'fill_board(int board[SIZE][SIZE]):&#160;fill_board.c']]]
+  ['delay_110',['delay',['../delay_8c.html#ab9707d9a622844ffc0b1ae1b77764aaa',1,'delay(int number_of_seconds):&#160;delay.c'],['../delay_8h.html#ab9707d9a622844ffc0b1ae1b77764aaa',1,'delay(int number_of_seconds):&#160;delay.c']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['init_5fboard_92',['init_board',['../init__board_8c.html#ad19a403b32a753f255ff27aa60bdb226',1,'init_board(int board[SIZE][SIZE]):&#160;init_board.c'],['../init__board_8h.html#ad19a403b32a753f255ff27aa60bdb226',1,'init_board(int board[SIZE][SIZE]):&#160;init_board.c']]]
+  ['game_5floop_112',['game_loop',['../game_8c.html#ac3b6598372e49a425129c17808f22958',1,'game_loop(int option):&#160;game.c'],['../game_8h.html#ac3b6598372e49a425129c17808f22958',1,'game_loop(int option):&#160;game.c']]]
 ];

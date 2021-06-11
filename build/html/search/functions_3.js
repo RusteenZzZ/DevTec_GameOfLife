@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['game_5floop_91',['game_loop',['../game_8c.html#a46fea93bf5d63e93090fbb95b742b881',1,'game_loop():&#160;game.c'],['../game_8h.html#a46fea93bf5d63e93090fbb95b742b881',1,'game_loop():&#160;game.c']]]
+  ['fill_5fboard_111',['fill_board',['../fill__board_8c.html#a26aae41468f5da48ccf62ab92eea47c3',1,'fill_board(int board[SIZE][SIZE]):&#160;fill_board.c'],['../fill__board_8h.html#a26aae41468f5da48ccf62ab92eea47c3',1,'fill_board(int board[SIZE][SIZE]):&#160;fill_board.c']]]
 ];

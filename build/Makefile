@@ -137,6 +137,19 @@ doc/fast:
 .PHONY : doc/fast
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -229,6 +242,33 @@ board_animation/init_board.s: board_animation/init_board.c.s
 board_animation/init_board.c.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_board.c.s
 .PHONY : board_animation/init_board.c.s
+
+board_animation/init_gospers_glider_gun.o: board_animation/init_gospers_glider_gun.c.o
+
+.PHONY : board_animation/init_gospers_glider_gun.o
+
+# target to build an object file
+board_animation/init_gospers_glider_gun.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_gospers_glider_gun.c.o
+.PHONY : board_animation/init_gospers_glider_gun.c.o
+
+board_animation/init_gospers_glider_gun.i: board_animation/init_gospers_glider_gun.c.i
+
+.PHONY : board_animation/init_gospers_glider_gun.i
+
+# target to preprocess a source file
+board_animation/init_gospers_glider_gun.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_gospers_glider_gun.c.i
+.PHONY : board_animation/init_gospers_glider_gun.c.i
+
+board_animation/init_gospers_glider_gun.s: board_animation/init_gospers_glider_gun.c.s
+
+.PHONY : board_animation/init_gospers_glider_gun.s
+
+# target to generate assembly for a file
+board_animation/init_gospers_glider_gun.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_gospers_glider_gun.c.s
+.PHONY : board_animation/init_gospers_glider_gun.c.s
 
 board_animation/next_generation_board_circular.o: board_animation/next_generation_board_circular.c.o
 
@@ -453,9 +493,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... dist"
 	@echo "... doc"
+	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... main"
 	@echo "... board_animation/delay.o"
 	@echo "... board_animation/delay.i"
@@ -466,6 +507,9 @@ help:
 	@echo "... board_animation/init_board.o"
 	@echo "... board_animation/init_board.i"
 	@echo "... board_animation/init_board.s"
+	@echo "... board_animation/init_gospers_glider_gun.o"
+	@echo "... board_animation/init_gospers_glider_gun.i"
+	@echo "... board_animation/init_gospers_glider_gun.s"
 	@echo "... board_animation/next_generation_board_circular.o"
 	@echo "... board_animation/next_generation_board_circular.i"
 	@echo "... board_animation/next_generation_board_circular.s"
