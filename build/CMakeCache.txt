@@ -215,6 +215,9 @@ Game_of_Life_BINARY_DIR:STATIC=/home/rusteen/DevTecs/build
 //Value Computed by CMake
 Game_of_Life_SOURCE_DIR:STATIC=/home/rusteen/DevTecs
 
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL2
+
 
 ########################
 # INTERNAL cache entries

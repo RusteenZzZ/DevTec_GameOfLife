@@ -1,10 +1,10 @@
 #ifndef CONST
 #define CONST
 
-#define SIZE 8
+#define SIZE 400
 #define BORDER SIZE-1
-#define DELAY 500 /** In milliseconds */
-#define FILLING_CHANCE 30 /** In percentage */
+#define DELAY 15 /** In milliseconds */
+#define FILLING_CHANCE 15 /** In percentage */
 #define LOOP_LIMIT 0 /** 0 or less means infinity times */
 
 #define DEAD 0
