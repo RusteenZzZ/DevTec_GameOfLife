@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['main_93',['main',['../CMakeCCompilerId_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;CMakeCCompilerId.c'],['../CMakeCXXCompilerId_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;CMakeCXXCompilerId.cpp'],['../main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.c']]]
+  ['init_5fboard_113',['init_board',['../init__board_8c.html#ad19a403b32a753f255ff27aa60bdb226',1,'init_board(int board[SIZE][SIZE]):&#160;init_board.c'],['../init__board_8h.html#ad19a403b32a753f255ff27aa60bdb226',1,'init_board(int board[SIZE][SIZE]):&#160;init_board.c']]],
+  ['init_5fgospers_5fglider_5fgun_114',['init_gospers_glider_gun',['../init__gospers__glider__gun_8c.html#a0fc79bb2bef245696c3b3cf540f0a3ee',1,'init_gospers_glider_gun(int board[SIZE][SIZE]):&#160;init_gospers_glider_gun.c'],['../init__gospers__glider__gun_8h.html#a0fc79bb2bef245696c3b3cf540f0a3ee',1,'init_gospers_glider_gun(int board[SIZE][SIZE]):&#160;init_gospers_glider_gun.c']]]
 ];

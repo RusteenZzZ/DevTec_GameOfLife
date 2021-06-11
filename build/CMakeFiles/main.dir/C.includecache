@@ -12,6 +12,10 @@ stdlib.h
 time.h
 -
 
+/home/rusteen/DevTecs/board_animation/fill_board.c
+fill_board.h
+/home/rusteen/DevTecs/board_animation/fill_board.h
+
 /home/rusteen/DevTecs/board_animation/fill_board.h
 stdlib.h
 -
@@ -20,9 +24,27 @@ time.h
 ./../const.h
 /home/rusteen/DevTecs/const.h
 
+/home/rusteen/DevTecs/board_animation/init_board.c
+init_board.h
+/home/rusteen/DevTecs/board_animation/init_board.h
+
 /home/rusteen/DevTecs/board_animation/init_board.h
 ./../const.h
 /home/rusteen/DevTecs/const.h
+
+/home/rusteen/DevTecs/board_animation/init_gospers_glider_gun.c
+init_gospers_glider_gun.h
+/home/rusteen/DevTecs/board_animation/init_gospers_glider_gun.h
+
+/home/rusteen/DevTecs/board_animation/init_gospers_glider_gun.h
+stdio.h
+-
+init_board.h
+/home/rusteen/DevTecs/board_animation/init_board.h
+
+/home/rusteen/DevTecs/board_animation/next_generation_board_circular.c
+next_generation_board_circular.h
+/home/rusteen/DevTecs/board_animation/next_generation_board_circular.h
 
 /home/rusteen/DevTecs/board_animation/next_generation_board_circular.h
 stdlib.h
@@ -32,6 +54,10 @@ num_of_neighbours_circular.h
 ./../const.h
 /home/rusteen/DevTecs/const.h
 
+/home/rusteen/DevTecs/board_animation/next_generation_board_clipped.c
+next_generation_board_clipped.h
+/home/rusteen/DevTecs/board_animation/next_generation_board_clipped.h
+
 /home/rusteen/DevTecs/board_animation/next_generation_board_clipped.h
 stdlib.h
 -
@@ -40,17 +66,29 @@ num_of_neighbours_clipped.h
 ./../const.h
 /home/rusteen/DevTecs/const.h
 
+/home/rusteen/DevTecs/board_animation/num_of_neighbours_circular.c
+num_of_neighbours_circular.h
+/home/rusteen/DevTecs/board_animation/num_of_neighbours_circular.h
+
 /home/rusteen/DevTecs/board_animation/num_of_neighbours_circular.h
 stdlib.h
 -
 ./../const.h
 /home/rusteen/DevTecs/const.h
 
+/home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.c
+num_of_neighbours_clipped.h
+/home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.h
+
 /home/rusteen/DevTecs/board_animation/num_of_neighbours_clipped.h
 stdlib.h
 -
 ./../const.h
 /home/rusteen/DevTecs/const.h
+
+/home/rusteen/DevTecs/board_animation/print_board.c
+print_board.h
+/home/rusteen/DevTecs/board_animation/print_board.h
 
 /home/rusteen/DevTecs/board_animation/print_board.h
 stdio.h
@@ -59,6 +97,10 @@ SDL2/SDL.h
 -
 ./../const.h
 /home/rusteen/DevTecs/const.h
+
+/home/rusteen/DevTecs/board_animation/update_board.c
+update_board.h
+/home/rusteen/DevTecs/board_animation/update_board.h
 
 /home/rusteen/DevTecs/board_animation/update_board.h
 ./../const.h
@@ -83,6 +125,8 @@ SDL2/SDL.h
 /home/rusteen/DevTecs/board_animation/fill_board.h
 ./../board_animation/init_board.h
 /home/rusteen/DevTecs/board_animation/init_board.h
+./../board_animation/init_gospers_glider_gun.h
+/home/rusteen/DevTecs/board_animation/init_gospers_glider_gun.h
 ./../board_animation/next_generation_board_clipped.h
 /home/rusteen/DevTecs/board_animation/next_generation_board_clipped.h
 ./../board_animation/num_of_neighbours_clipped.h
@@ -95,4 +139,8 @@ SDL2/SDL.h
 /home/rusteen/DevTecs/board_animation/print_board.h
 ./../board_animation/update_board.h
 /home/rusteen/DevTecs/board_animation/update_board.h
+
+/home/rusteen/DevTecs/main.c
+./game/game.h
+/home/rusteen/DevTecs/game/game.h
 

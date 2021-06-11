@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clear_5fscreen_88',['clear_screen',['../board__animation_2clear__screen_8h.html#a4953d1edcbbfc7e420c423ded1d5621a',1,'clear_screen():&#160;clear_screen_posix.c'],['../board__animation_2clear__screen__posix_8c.html#a4953d1edcbbfc7e420c423ded1d5621a',1,'clear_screen():&#160;clear_screen_posix.c'],['../board__animation_2clear__screen__windows_8c.html#a4953d1edcbbfc7e420c423ded1d5621a',1,'clear_screen():&#160;clear_screen_windows.c'],['../clear__screen_8h.html#a4953d1edcbbfc7e420c423ded1d5621a',1,'clear_screen():&#160;clear_screen_posix.c'],['../clear__screen__posix_8c.html#a4953d1edcbbfc7e420c423ded1d5621a',1,'clear_screen():&#160;clear_screen_posix.c'],['../clear__screen__windows_8c.html#a4953d1edcbbfc7e420c423ded1d5621a',1,'clear_screen():&#160;clear_screen_windows.c']]]
+  ['add_5fexecutable_108',['add_executable',['../CMakeLists_8txt.html#a7cd4cc7437267a3e96da9cd94ebc8c5c',1,'CMakeLists.txt']]]
 ];

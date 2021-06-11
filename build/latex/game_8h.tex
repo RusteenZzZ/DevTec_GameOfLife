@@ -1,12 +1,16 @@
 \hypertarget{game_8h}{}\doxysection{/home/rusteen/\+Dev\+Tecs/game/game.h File Reference}
 \label{game_8h}\index{/home/rusteen/DevTecs/game/game.h@{/home/rusteen/DevTecs/game/game.h}}
 {\ttfamily \#include $<$stdlib.\+h$>$}\newline
-{\ttfamily \#include \char`\"{}./../board\+\_\+animation/clear\+\_\+screen.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L2/\+S\+D\+L.\+h$>$}\newline
 {\ttfamily \#include \char`\"{}./../board\+\_\+animation/delay.\+h\char`\"{}}\newline
 {\ttfamily \#include \char`\"{}./../board\+\_\+animation/fill\+\_\+board.\+h\char`\"{}}\newline
 {\ttfamily \#include \char`\"{}./../board\+\_\+animation/init\+\_\+board.\+h\char`\"{}}\newline
-{\ttfamily \#include \char`\"{}./../board\+\_\+animation/next\+\_\+generation\+\_\+board.\+h\char`\"{}}\newline
-{\ttfamily \#include \char`\"{}./../board\+\_\+animation/num\+\_\+of\+\_\+neighbours.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./../board\+\_\+animation/init\+\_\+gospers\+\_\+glider\+\_\+gun.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./../board\+\_\+animation/next\+\_\+generation\+\_\+board\+\_\+clipped.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./../board\+\_\+animation/num\+\_\+of\+\_\+neighbours\+\_\+clipped.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./../board\+\_\+animation/next\+\_\+generation\+\_\+board\+\_\+circular.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./../board\+\_\+animation/num\+\_\+of\+\_\+neighbours\+\_\+circular.\+h\char`\"{}}\newline
 {\ttfamily \#include \char`\"{}./../board\+\_\+animation/print\+\_\+board.\+h\char`\"{}}\newline
 {\ttfamily \#include \char`\"{}./../board\+\_\+animation/update\+\_\+board.\+h\char`\"{}}\newline
 Include dependency graph for game.\+h\+:
@@ -16,14 +20,19 @@ This graph shows which files directly or indirectly include this file\+:
 \doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{game_8h_a46fea93bf5d63e93090fbb95b742b881}{game\+\_\+loop}} ()
+void \mbox{\hyperlink{game_8h_ac3b6598372e49a425129c17808f22958}{game\+\_\+loop}} (int option)
 \end{DoxyCompactItemize}
 
 
 \doxysubsection{Function Documentation}
-\mbox{\Hypertarget{game_8h_a46fea93bf5d63e93090fbb95b742b881}\label{game_8h_a46fea93bf5d63e93090fbb95b742b881}} 
+\mbox{\Hypertarget{game_8h_ac3b6598372e49a425129c17808f22958}\label{game_8h_ac3b6598372e49a425129c17808f22958}} 
 \index{game.h@{game.h}!game\_loop@{game\_loop}}
 \index{game\_loop@{game\_loop}!game.h@{game.h}}
 \doxysubsubsection{\texorpdfstring{game\_loop()}{game\_loop()}}
-{\footnotesize\ttfamily void game\+\_\+loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void game\+\_\+loop (\begin{DoxyParamCaption}\item[{int}]{option }\end{DoxyParamCaption})}
 
+
+\begin{DoxyParams}{Parameters}
+{\em option} & 1 for clipped, 2 for circular (Clipped by default) \\
+\hline
+\end{DoxyParams}

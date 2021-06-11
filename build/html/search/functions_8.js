@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['update_5fboard_97',['update_board',['../update__board_8c.html#a17a0f41f8852899f018daba9cb0f8994',1,'update_board(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;update_board.c'],['../update__board_8h.html#a17a0f41f8852899f018daba9cb0f8994',1,'update_board(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;update_board.c']]]
+  ['print_5fboard_120',['print_board',['../print__board_8c.html#acdf14607fe67e1314e41e2389f30edc2',1,'print_board(int board[SIZE][SIZE], SDL_Renderer *renderer):&#160;print_board.c'],['../print__board_8h.html#acdf14607fe67e1314e41e2389f30edc2',1,'print_board(int board[SIZE][SIZE], SDL_Renderer *renderer):&#160;print_board.c']]]
 ];

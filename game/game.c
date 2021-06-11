@@ -10,10 +10,19 @@ void game_loop(int option){
 	int board_v1[SIZE][SIZE];
 	int board_v2[SIZE][SIZE];
 
-	init_board(board_v1);
-	init_board(board_v2);
+	if(option == 3){
+		if(init_gospers_glider_gun(board_v1) == -1) {
+			SDL_DestroyRenderer(renderer);
+			SDL_DestroyWindow(window);
+			SDL_Quit();
+			return;
+		}
+	}else{
+		init_board(board_v1);
+		init_board(board_v2);
 
-	fill_board(board_v1);
+		fill_board(board_v1);
+	}
 
 	long long loop = 1;
 

@@ -243,6 +243,33 @@ board_animation/init_board.c.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_board.c.s
 .PHONY : board_animation/init_board.c.s
 
+board_animation/init_gospers_glider_gun.o: board_animation/init_gospers_glider_gun.c.o
+
+.PHONY : board_animation/init_gospers_glider_gun.o
+
+# target to build an object file
+board_animation/init_gospers_glider_gun.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_gospers_glider_gun.c.o
+.PHONY : board_animation/init_gospers_glider_gun.c.o
+
+board_animation/init_gospers_glider_gun.i: board_animation/init_gospers_glider_gun.c.i
+
+.PHONY : board_animation/init_gospers_glider_gun.i
+
+# target to preprocess a source file
+board_animation/init_gospers_glider_gun.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_gospers_glider_gun.c.i
+.PHONY : board_animation/init_gospers_glider_gun.c.i
+
+board_animation/init_gospers_glider_gun.s: board_animation/init_gospers_glider_gun.c.s
+
+.PHONY : board_animation/init_gospers_glider_gun.s
+
+# target to generate assembly for a file
+board_animation/init_gospers_glider_gun.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/board_animation/init_gospers_glider_gun.c.s
+.PHONY : board_animation/init_gospers_glider_gun.c.s
+
 board_animation/next_generation_board_circular.o: board_animation/next_generation_board_circular.c.o
 
 .PHONY : board_animation/next_generation_board_circular.o
@@ -480,6 +507,9 @@ help:
 	@echo "... board_animation/init_board.o"
 	@echo "... board_animation/init_board.i"
 	@echo "... board_animation/init_board.s"
+	@echo "... board_animation/init_gospers_glider_gun.o"
+	@echo "... board_animation/init_gospers_glider_gun.i"
+	@echo "... board_animation/init_gospers_glider_gun.s"
 	@echo "... board_animation/next_generation_board_circular.o"
 	@echo "... board_animation/next_generation_board_circular.i"
 	@echo "... board_animation/next_generation_board_circular.s"

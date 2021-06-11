@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/board_animation/delay.c.o"
   "CMakeFiles/main.dir/board_animation/fill_board.c.o"
   "CMakeFiles/main.dir/board_animation/init_board.c.o"
+  "CMakeFiles/main.dir/board_animation/init_gospers_glider_gun.c.o"
   "CMakeFiles/main.dir/board_animation/next_generation_board_circular.c.o"
   "CMakeFiles/main.dir/board_animation/next_generation_board_clipped.c.o"
   "CMakeFiles/main.dir/board_animation/num_of_neighbours_circular.c.o"

@@ -1,9 +1,15 @@
 var searchData=
 [
-  ['next_5fgeneration_5fboard_43',['next_generation_board',['../next__generation__board_8c.html#afe24ec0dd7e8cb224c65d0bac68b671c',1,'next_generation_board(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;next_generation_board.c'],['../next__generation__board_8h.html#afe24ec0dd7e8cb224c65d0bac68b671c',1,'next_generation_board(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;next_generation_board.c']]],
-  ['next_5fgeneration_5fboard_2ec_44',['next_generation_board.c',['../next__generation__board_8c.html',1,'']]],
-  ['next_5fgeneration_5fboard_2eh_45',['next_generation_board.h',['../next__generation__board_8h.html',1,'']]],
-  ['num_5fof_5fneighbours_46',['num_of_neighbours',['../num__of__neighbours_8c.html#ac06e318c0cbc7a50050b03cf3937351c',1,'num_of_neighbours(int board[SIZE][SIZE], int x, int y):&#160;num_of_neighbours.c'],['../num__of__neighbours_8h.html#ac06e318c0cbc7a50050b03cf3937351c',1,'num_of_neighbours(int board[SIZE][SIZE], int x, int y):&#160;num_of_neighbours.c']]],
-  ['num_5fof_5fneighbours_2ec_47',['num_of_neighbours.c',['../num__of__neighbours_8c.html',1,'']]],
-  ['num_5fof_5fneighbours_2eh_48',['num_of_neighbours.h',['../num__of__neighbours_8h.html',1,'']]]
+  ['next_5fgeneration_5fboard_5fcircular_45',['next_generation_board_circular',['../next__generation__board__circular_8c.html#ac567da8e874c6e91cde4c69674c9cad0',1,'next_generation_board_circular(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;next_generation_board_circular.c'],['../next__generation__board__circular_8h.html#ac567da8e874c6e91cde4c69674c9cad0',1,'next_generation_board_circular(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;next_generation_board_circular.c']]],
+  ['next_5fgeneration_5fboard_5fcircular_2ec_46',['next_generation_board_circular.c',['../next__generation__board__circular_8c.html',1,'']]],
+  ['next_5fgeneration_5fboard_5fcircular_2eh_47',['next_generation_board_circular.h',['../next__generation__board__circular_8h.html',1,'']]],
+  ['next_5fgeneration_5fboard_5fclipped_48',['next_generation_board_clipped',['../next__generation__board__clipped_8c.html#a5d8a2df69db408423a412e694a2b742f',1,'next_generation_board_clipped(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;next_generation_board_clipped.c'],['../next__generation__board__clipped_8h.html#a5d8a2df69db408423a412e694a2b742f',1,'next_generation_board_clipped(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;next_generation_board_clipped.c']]],
+  ['next_5fgeneration_5fboard_5fclipped_2ec_49',['next_generation_board_clipped.c',['../next__generation__board__clipped_8c.html',1,'']]],
+  ['next_5fgeneration_5fboard_5fclipped_2eh_50',['next_generation_board_clipped.h',['../next__generation__board__clipped_8h.html',1,'']]],
+  ['num_5fof_5fneighbours_5fcircular_51',['num_of_neighbours_circular',['../num__of__neighbours__circular_8c.html#a5be15e72337f7d347977c91ff52aeafc',1,'num_of_neighbours_circular(int board[SIZE][SIZE], int x, int y):&#160;num_of_neighbours_circular.c'],['../num__of__neighbours__circular_8h.html#a5be15e72337f7d347977c91ff52aeafc',1,'num_of_neighbours_circular(int board[SIZE][SIZE], int x, int y):&#160;num_of_neighbours_circular.c']]],
+  ['num_5fof_5fneighbours_5fcircular_2ec_52',['num_of_neighbours_circular.c',['../num__of__neighbours__circular_8c.html',1,'']]],
+  ['num_5fof_5fneighbours_5fcircular_2eh_53',['num_of_neighbours_circular.h',['../num__of__neighbours__circular_8h.html',1,'']]],
+  ['num_5fof_5fneighbours_5fclipped_54',['num_of_neighbours_clipped',['../num__of__neighbours__clipped_8c.html#a5145901536e092cf3264571995887ad3',1,'num_of_neighbours_clipped(int board[SIZE][SIZE], int x, int y):&#160;num_of_neighbours_clipped.c'],['../num__of__neighbours__clipped_8h.html#a5145901536e092cf3264571995887ad3',1,'num_of_neighbours_clipped(int board[SIZE][SIZE], int x, int y):&#160;num_of_neighbours_clipped.c']]],
+  ['num_5fof_5fneighbours_5fclipped_2ec_55',['num_of_neighbours_clipped.c',['../num__of__neighbours__clipped_8c.html',1,'']]],
+  ['num_5fof_5fneighbours_5fclipped_2eh_56',['num_of_neighbours_clipped.h',['../num__of__neighbours__clipped_8h.html',1,'']]]
 ];

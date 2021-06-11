@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['next_5fgeneration_5fboard_94',['next_generation_board',['../next__generation__board_8c.html#afe24ec0dd7e8cb224c65d0bac68b671c',1,'next_generation_board(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;next_generation_board.c'],['../next__generation__board_8h.html#afe24ec0dd7e8cb224c65d0bac68b671c',1,'next_generation_board(int board_v1[SIZE][SIZE], int board_v2[SIZE][SIZE]):&#160;next_generation_board.c']]],
-  ['num_5fof_5fneighbours_95',['num_of_neighbours',['../num__of__neighbours_8c.html#ac06e318c0cbc7a50050b03cf3937351c',1,'num_of_neighbours(int board[SIZE][SIZE], int x, int y):&#160;num_of_neighbours.c'],['../num__of__neighbours_8h.html#ac06e318c0cbc7a50050b03cf3937351c',1,'num_of_neighbours(int board[SIZE][SIZE], int x, int y):&#160;num_of_neighbours.c']]]
+  ['main_115',['main',['../CMakeCCompilerId_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;CMakeCCompilerId.c'],['../CMakeCXXCompilerId_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;CMakeCXXCompilerId.cpp'],['../main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.c'],['../unit__tests_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;unit_tests.c']]]
 ];

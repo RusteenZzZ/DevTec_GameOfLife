@@ -9,5 +9,7 @@ digraph "/home/rusteen/DevTecs/board_animation/print_board.c"
   Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="stdio.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="./../const.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$const_8h.html",tooltip=" "];
+  Node4 [label="SDL2/SDL.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="./../const.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$const_8h.html",tooltip=" "];
 }
